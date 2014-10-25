@@ -1,0 +1,409 @@
+body,td,th {
+	color: #000;
+}
+
+a {
+	color: #000;
+	text-decoration:none;
+}
+body {
+	background-color: white;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height:100%;
+	font: 13px/16px 'ColaborateLightRegular', Helvetica, Arial, sans-serif;
+	}
+
+h1 {
+	padding-top:10px;
+	font: 16px/14px 'ColaborateLightRegular', Helvetica, Arial, sans-serif;
+	cursor:default;
+
+} 
+
+
+h2 {
+	font: 12px/12px 'ColaborateLightRegular', Helvetica, Arial, sans-serif;
+	cursor:default;
+
+} 
+
+#colonne-1, #colonne-3, #colonne-5 {
+	background-color:grey;
+	position:absolute; 
+	top:0; 
+	width:20%;
+	height:100%;
+	float: left;
+	min-height: 100%; 
+	overflow-y: auto;
+	background-image:url('../img/grad-back.png');
+	background-repeat:repeat-y;
+}
+
+#colonne-2, #colonne-4 {
+	background-color:white;
+	position:absolute; 
+	top:0; 
+	width:20%;
+	height:100%;
+	float: left;
+	min-height: 100%; 
+	overflow-y: auto;
+	background-image:url('../img/grad-back.png');
+	background-repeat:repeat-y;
+}
+
+.retour {
+	width:17px;
+	height:17px;
+	cursor:pointer;
+	overflow:hidden;
+	background-image:url('../img/back-to-top.png');
+	margin-top:-20px;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+hr {
+	margin-bottom:32px;
+}
+
+.description-produit {
+	background-color:#fff;
+	cursor:default;
+	padding: 5px;
+
+}
+
+#bouton-achat {
+	background-color:#000;
+	color:#eee;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat:hover {
+	background-color:#c0c0c0;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+#bouton-achat-ads {
+	background-color:#000;
+	color:#eee;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat-ads a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads:hover {
+	background-color:#3d4194;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+#bouton-achat-ads2 {
+	background-color:#000;
+	color:#eee;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat-ads2 a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads2 a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads2:hover {
+	background-color:#3d4194;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+
+
+#bouton-achat-kid {
+	background-color:#000;
+	color:#eee;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat-kid a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-kid a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-kid:hover {
+	background-color:#de7c75;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+#bouton-achat-kid2 {
+	background-color:#000;
+	color:#eee;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat-kid2 a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-kid2 a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-kid2:hover {
+	background-color:#de7c75;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+#bouton-achat-ads3 {
+	background-color:#000;
+	color:#eee;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat-ads3 a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads3 a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads3:hover {
+	background-color:#39b07d;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+#bouton-achat-ads4 {
+	background-color:#000;
+	color:#eee;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font: 12px/16px 'ColaborateRegular', Helvetica, Arial, sans-serif;
+	text-align:center;
+	padding:10px;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;
+}
+
+#bouton-achat-ads4 a {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads4 a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+#bouton-achat-ads4:hover {
+	background-color:#39b07d;
+	color:#fff;
+	-webkit-transition:background-color 0.5s ease-out;  
+    -moz-transition:background-color 0.5s ease-out;  
+    -o-transition:background-color 0.5s ease-out;  
+    transition:background-color 0.5s ease-out;  
+}
+
+	
+
+#colonne-1 {
+	left:0;
+	cursor:default;
+}
+
+#colonne-2 {
+	left:20%; 
+	cursor:normal;
+}
+
+#colonne-3 {
+	left:40%; 
+	cursor:normal;
+}
+
+#colonne-4 {
+	left:60%; 
+	cursor:normal;
+}
+
+#colonne-5 {
+	left:80%; 
+	cursor:normal;
+}
+
+@font-face {
+    font-family: 'ColaborateThinRegular';
+    src: url('../type/ColabThi-webfont.eot');
+    src: url('../type/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/ColabThi-webfont.woff') format('woff'),
+         url('../type/ColabThi-webfont.ttf') format('truetype'),
+         url('../type/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateLightRegular';
+    src: url('../type/ColabLig-webfont.eot');
+    src: url('../type/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/ColabLig-webfont.woff') format('woff'),
+         url('../type/ColabLig-webfont.ttf') format('truetype'),
+         url('../type/ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateRegular';
+    src: url('../type/ColabReg-webfont.eot');
+    src: url('../type/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/ColabReg-webfont.woff') format('woff'),
+         url('../type/ColabReg-webfont.ttf') format('truetype'),
+         url('../type/ColabReg-webfont.svg#ColaborateRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateMediumRegular';
+    src: url('../type/ColabMed-webfont.eot');
+    src: url('../type/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/ColabMed-webfont.woff') format('woff'),
+         url('../type/ColabMed-webfont.ttf') format('truetype'),
+         url('../type/ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateBoldRegular';
+    src: url('../type/ColabBol-webfont.eot');
+    src: url('../type/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/ColabBol-webfont.woff') format('woff'),
+         url('../type/ColabBol-webfont.ttf') format('truetype'),
+         url('../type/ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
